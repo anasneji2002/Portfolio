@@ -1,0 +1,68 @@
+header {
+  margin-bottom: 75px;
+}
+main {
+  padding: 10px;
+}
+section {
+  padding-top: 75px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+#About_Me {
+  display: flex;
+  gap: 1vw;
+}
+#Experience {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#Projects {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#Skills {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#Contact {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-bottom: 50px;
+}
+.listcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.projectscontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .projectscontainer {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .listcontainer {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
