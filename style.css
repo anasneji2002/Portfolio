@@ -13,6 +13,9 @@ section {
   display: flex;
   gap: 1vw;
 }
+.AboutMeImageContainer {
+  width: clamp(210px, 30vw, 1000px);
+}
 #Experience {
   display: flex;
   flex-direction: column;
@@ -45,6 +48,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-size: clamp(18px, 3vw, 40px);
 }
 .projectscontainer {
   display: flex;
@@ -64,5 +68,24 @@ section {
     gap: 10px;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 443px) {
+  .AboutMeImageContainer {
+    width: clamp(50px, 30vw, 1000px);
+    height: auto;
+  }
+  .container {
+    font-size: clamp(13px, 3vw, 40px);
+  }
+}
+@media screen and (max-width: 340px) {
+  .container {
+    font-size: clamp(11px, 3vw, 40px);
+  }
+}
+@media screen and (max-width: 293) {
+  .container {
+    font-size: clamp(10px, 3vw, 40px);
   }
 }
