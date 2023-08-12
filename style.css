@@ -80,13 +80,7 @@ section {
   {
     display: none;
   }
-  .listcontainer {
-    display: none;
-  }
-  .listcontainer2
-  {
-    display: block;
-  }
+  
 }
 @media screen and (max-width: 443px) {
   .AboutMeImageContainer {
