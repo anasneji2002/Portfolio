@@ -64,10 +64,21 @@ section {
     align-items: center;
   }
   .listcontainer {
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    display: none;
+  }
+  .listcontainer2
+  {
+    display: block;
+  }
+}
+@media screen and (min-width: 601px) {
+  
+  .listcontainer {
+    display: flex;
+  }
+  .listcontainer2
+  {
+    display: none;
   }
 }
 @media screen and (max-width: 443px) {
