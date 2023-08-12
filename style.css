@@ -80,6 +80,13 @@ section {
   {
     display: none;
   }
+  .listcontainer {
+    display: none;
+  }
+  .listcontainer2
+  {
+    display: block;
+  }
 }
 @media screen and (max-width: 443px) {
   .AboutMeImageContainer {
@@ -89,14 +96,36 @@ section {
   .container {
     font-size: clamp(13px, 3vw, 40px);
   }
+  .listcontainer {
+    display: none;
+  }
+  .listcontainer2
+  {
+    display: block;
+  }
+  
 }
 @media screen and (max-width: 340px) {
   .container {
     font-size: clamp(11px, 3vw, 40px);
   }
+  .listcontainer {
+    display: none;
+  }
+  .listcontainer2
+  {
+    display: block;
+  }
 }
 @media screen and (max-width: 293) {
   .container {
     font-size: clamp(10px, 3vw, 40px);
+  }
+  .listcontainer {
+    display: none;
+  }
+  .listcontainer2
+  {
+    display: block;
   }
 }
