@@ -56,13 +56,16 @@ section {
   gap: 1vw;
   align-items: flex-start;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width:870px){
   .projectscontainer {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
   }
+}
+@media screen and (max-width: 600px) {
+  
   .listcontainer {
     display: none;
   }
@@ -111,7 +114,7 @@ section {
     display: block;
   }
 }
-@media screen and (max-width: 293) {
+@media screen and (max-width: 293px) {
   .container {
     font-size: clamp(10px, 3vw, 40px);
   }
