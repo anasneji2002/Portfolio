@@ -56,16 +56,16 @@ section {
   gap: 1vw;
   align-items: flex-start;
 }
-@media screen and (max-width:870px){
+
+  
+@media screen and (max-width: 600px) {
   .projectscontainer {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
   }
-}
-@media screen and (max-width: 600px) {
-  
+
   .listcontainer {
     display: none;
   }
